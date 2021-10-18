@@ -56,11 +56,44 @@ Problems based on 2 Pointers approach
     - When `b+c>-a` then `hi--`
     - When `b+c == -a` then `lo++` and `hi--` at the same time
     - (To choose unique elements from array compare adjacent elements and update the pointers accordingly)
-- Time Complexity: O(N^2) | Space Complexity: O(1) (auxiliary, because the space used for answer is not accountable)
+- Time Complexity: O(N^2) 
+- Space Complexity: O(1) (auxiliary, because the space used for answer is not accountable)
 
 ---
 
 ###	Trapping rainwater 
+
+Given: Heights of buildings in an array
+To return: Maximum Area of water the given building can trap
+Approach: Find two building which result in trapping maximum area
+
+#### Intuition
+
+- To find the maximum trapped rainwater for given building, we use the formula: `min(left[i] - right[i]) - a[i]`, where
+    - left[i] is the height of the maximum building to the left
+    - right[i] is the height of the maximum building to the right
+    - a[i] is the height of given building
+
+#### Brute force approach
+
+- To find the building with maximum height from left and right, we can use two loops
+- Time Complexity: O(N^2) | Space Complexity: O(1)
+
+#### Better approach
+#### Prefix sum
+
+- Create two array to store prefix maximum and suffix maximum
+- These array will store the maximum height from left to right in prefix arr and vice versa
+- Time Complexity: O(N) <= `O(N) + O(N) + O(N)`
+- Space Complexity: O(N) <= `O(N) + O(N)`
+
+#### Optimal approach
+
+- Take two pointers left and right at extreme positions
+- Maintain two values leftMax and rightMax and update it accordingly
+- Calculate area using height and width and update if its greater than maxArea
+- Compute maxArea until left and right pointers cross over
+- Time Complexity: O(N) | Space Complexity: O(1)
 
 
 
