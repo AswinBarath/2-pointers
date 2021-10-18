@@ -130,11 +130,20 @@ Approach: Find unique numbers, overwrite the given array with unique numbers, co
 - Time Complexity: O(N) | Space Complexity: O(1)
 
 
-
 ---
+
 
 ###	Max consecutive ones 
 
+Given: Binary Array
+To return: Maximum consecutive ones in given binary array
+Approach: Keep track of consecutive ones and the maximum count
+
+- Use two pointers count and maxi
+- Count the consecutive ones and update the count
+- If we encounter zero, change count to zero
+- Keep updating the maximum value of count in maxi
+- Time Complexity: O(N) | Space Complexity: O(1)
 
 
 ---
