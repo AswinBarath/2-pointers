@@ -2,7 +2,9 @@
 
 Problems based on 2 Pointers approach
 
+
 ---
+
 
 ## 2 Pointers Problems Rundown 
 ### (Approaches to Solve)
@@ -23,7 +25,9 @@ Problems based on 2 Pointers approach
 - Restore the original list, and extract the copy list
 - Time Complexity: O(N) | Space Complexity: O(1)
 
+
 ---
+
 
 ### 3 sum 
 
@@ -59,7 +63,9 @@ Problems based on 2 Pointers approach
 - Time Complexity: O(N^2) 
 - Space Complexity: O(1) (auxiliary, because the space used for answer is not accountable)
 
+
 ---
+
 
 ###	Trapping rainwater 
 
@@ -96,10 +102,32 @@ Approach: Find two building which result in trapping maximum area
 - Time Complexity: O(N) | Space Complexity: O(1)
 
 
-
 ---
 
+
 ###	Remove Duplicate from Sorted array 
+
+Given: Sorted array with duplicates
+To return: No. of unique numbers
+Condition: 
+    - To sort all unique numbers and insert in-place in the given array from the start
+    - No need other numbers
+Approach: Find unique numbers, overwrite the given array with unique numbers, count them and return it.
+
+#### Brute force appraoch
+
+- Use a HashSet to store unique numbers
+- Insert them in-place at given array
+- Time Complexity: O(NlogN) (why? N for traversal and logN for inserting them in HashSet)
+- Space Complexity: O(N)
+
+#### Optimal approach
+
+- Take two pointer i and j
+    - If values at i and j are same, then increment j
+    - If values at i and j are different, then increment i, and copy element value of j to i
+- When j is out of bound, return the count which is `(i+1)`
+- Time Complexity: O(N) | Space Complexity: O(1)
 
 
 
