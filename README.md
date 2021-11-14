@@ -1,7 +1,20 @@
 # 2 Pointers
 
-Problems based on 2 Pointers approach
+Problems based on the 2 Pointers approach
 
+## SDE Sheet problems on 2 Pointers
+
+[Sheet Link](https://takeuforward.org/interviews/strivers-sde-sheet-top-coding-interview-problems/)
+
+### Day 7
+
+| Completion Status | Problems on Arrays | Explanation | Solution |
+| --- | --- | --- | --- |
+| ✅ | [Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/) | [Brute, Better & Optimal Approaches](#Clone-a-Linked-List-with-next-and-random-pointer) | [Java Soultion](./src/sde_sheet/CloneLLwith2Pointers.java) |
+| ✅ | [3Sum](https://leetcode.com/problems/3sum/) | [Brute, Better & Optimal Approaches](#3-sum) | [Java Soultion](./src/sde_sheet/ThreeSum.java) |
+| ✅ | [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/) | [Brute, Better & Optimal Approaches](#Trapping-rainwater) | [Java Soultion](./src/sde_sheet/ContainerWithMostWater.java) |
+| ✅ | [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | [Brute, Better & Optimal Approaches](#Remove-Duplicate-from-Sorted-array ) | [Java Soultion](./src/sde_sheet/RemoveDuplicateFromSortedarray.java) |
+| ✅ | [Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones/) | [Brute, Better & Optimal Approaches](#Max-consecutive-ones) | [Java Soultion](./src/sde_sheet/MaxConsecutiveOnes.java) |
 
 ---
 
