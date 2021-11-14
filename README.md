@@ -8,7 +8,7 @@ Problems based on the 2 Pointers approach
 
 ### Day 7
 
-| Completion Status | Problems on Arrays | Explanation | Solution |
+| Completion Status | Problems on 2 Pointers | Explanation | Solution |
 | --- | --- | --- | --- |
 | ✅ | [Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/) | [Brute, Better & Optimal Approaches](#Clone-a-Linked-List-with-next-and-random-pointer) | [Java Soultion](./src/sde_sheet/CloneLLwith2Pointers.java) |
 | ✅ | [3Sum](https://leetcode.com/problems/3sum/) | [Brute, Better & Optimal Approaches](#3-sum) | [Java Soultion](./src/sde_sheet/ThreeSum.java) |
