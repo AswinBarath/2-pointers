@@ -1,6 +1,6 @@
 package two_pointers_problems;
 
-public class Containers_with_most_water {
+public class Container_with_most_water {
     public int maxArea(int[] A) {
         int l = 0, r = A.length - 1;
         long maxAns = 0;
